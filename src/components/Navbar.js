@@ -18,7 +18,7 @@ const Navbar = () => {
       </div>
       <ul className={`menu ${isOpen ? 'open' : ''}`}>
         <li>
-          <NavLink to="/" exact activeClassName="active">Home test</NavLink>
+          <NavLink to="/" exact activeClassName="active">Home</NavLink>
         </li>
         <li>
           <NavLink to="/about" activeClassName="active">About</NavLink>
